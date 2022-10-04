@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkillUp</title> <!-- Title of the document -->
 </head>
-<>
+
     <h1>Hello World</h1>
     <h2>Hello World</h2>
     <h3>Hello World</h3>
@@ -17,7 +17,7 @@
     <hr>
 
     <div>
-        <p title="This is a great title">Lorem ipsum dolor sit <strong>amet</strong>> consectetur <em> adipisicing elit</em>. Sit totam aperiam maxime consequatur, 
+        <p title="This is a great title">Lorem ipsum dolor sit <strong>amet</strong> consectetur <em> adipisicing elit</em>. Sit totam aperiam maxime consequatur, 
             in voluptate nam fugiat. Corporis perferendis doloribus quas assumenda sit, nulla fugiat pariatur
             aut corrupti? Laboriosam, possimus!</p>
     
@@ -120,13 +120,21 @@
             Last name: <br>
             <input type="text" name="lastname" value="" placeholder="Last name here"> <br>
             <input type="radio" name="options"> Option 1
-            <input type="radio" name="options"> Option 2 <br>
+            <input type="radio" name="options"> Option 2 <br><br>
 
             <input type="checkbox" name="checkboxes" checked> Checkbox 1
             <input type="checkbox" name="checkboxes"> Checkbox 2
-            <input type="checkbox" name="checkboxes"> Checkbox 3
+            <input type="checkbox" name="checkboxes"> Checkbox 3 <br>
             
-            <br>
+            <label for="carSelect">Select: </label>
+            <select name="cars" id="carSelect">
+                <option value="BMW">BMW</option>
+                <option value="Ferari">Ferari</option>
+                <option value="Audi">Audi</option>
+            </select>
+
+
+            <br><br>
             <input type="submit" value="Submit">
         </fieldset>
 
